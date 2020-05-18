@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Touch Slider</title>
+</head>
+<body>
+
+  <h1 class="title">Responsive<br> Touch Slider</h1>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <img src="imgs/img1.jpg" alt="" srcset="">
+        <div class="box-name">
+          <h1>Maria Maximmus</h1>
+          <p>Frontend Developer</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/img2.jpg" alt="" srcset="">
+        <div class="box-name">
+          <h1>Myke Lose</h1>
+          <p>Manager Product</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/img3.jpg" alt="" srcset="">
+        <div class="box-name">
+          <h1>Leo Ottis</h1>
+          <p>Frontend Developer</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/img4.jpg" alt="" srcset="">
+        <div class="box-name">
+          <h1>Tony Felipo</h1>
+          <p>Backend Developer</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/img5.jpg" alt="" srcset="">
+        <div class="box-name">
+          <h1>Fabio Naka</h1>
+          <p>Backend Developer</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/img6.jpg" alt="" srcset="">
+        <div class="box-name">
+          <h1>Jorge Ytane</h1>
+          <p>Backend Developer</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/img7.jpg" alt="" srcset="">
+        <div class="box-name">
+          <h1>Lara Swit</h1>
+          <p>Designer</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/img8.jpg" alt="" srcset="">
+        <div class="box-name">
+          <h1>Sonia Poyt</h1>
+          <p>Frontend Developer</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/img9.jpg" alt="" srcset="">
+        <div class="box-name">
+          <h1>Leon Stone</h1>
+          <p>Backend Developert</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/img10.jpg" alt="" srcset="">
+        <div class="box-name">
+          <h1>Simone Goytu</h1>
+          <p>Backend Developert</p>
+        </div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows : true,
+      },
+      loop: true,
+      autoplay: {
+        delay: 800,
+        disableOnInteraction: false,
+      }
+    });
+  </script>
+  
+</body>
+</html>
